@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "zMonitor", "zMonitor\zMonitor.cproj", "{AE61586C-5AE8-4CD7-98C0-B37E1DBEC88F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE61586C-5AE8-4CD7-98C0-B37E1DBEC88F}.Debug|AVR.ActiveCfg = Debug|AVR
+		{AE61586C-5AE8-4CD7-98C0-B37E1DBEC88F}.Debug|AVR.Build.0 = Debug|AVR
+		{AE61586C-5AE8-4CD7-98C0-B37E1DBEC88F}.Release|AVR.ActiveCfg = Release|AVR
+		{AE61586C-5AE8-4CD7-98C0-B37E1DBEC88F}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
