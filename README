@@ -10,6 +10,8 @@ Autores:
 
 zMonitor es un dispositivo para la adquisición de señales de EEG y su visualización en Android desarrollado en el curso de Sistemas Embebidos de la Universidad de los Andes.
 
+Se puede ver un video del funcionamiento de zMonitor en http://www.youtube.com/watch?v=pW1bedwvCxc
+
 El proyecto se encuentra organizado por carpetas de la siguiente manera:
 - Android: Archivos de la aplicación en Android.
 - Microcontrolador: Programa en C para la adquisición de los datos y el envío por bluetooth.
