@@ -1,0 +1,34 @@
+zMonitor
+
+Director:
+- Fredy E. Segura Ph.D 		(fsegura@uniandes.edu.co)
+
+Autores:
+- Juan Sebastian Cifuentes	(j-cifuen@uniandes.edu.co)
+- Viviana Salcedo			(vp.salcedo93@uniandes.edu.co)
+
+
+zMonitor es un dispositivo para la adquisición de señales de EEG y su visualización en Android desarrollado en el curso de Sistemas Embebidos de la Universidad de los Andes.
+
+El proyecto se encuentra organizado por carpetas de la siguiente manera:
+- Android: Archivos de la aplicación en Android.
+- Microcontrolador: Programa en C para la adquisición de los datos y el envío por bluetooth.
+- PCB-Eagle: Circuitos y PCBs en Eagle.
+- README: Este archivo.
+
+Características:
+- Frecuencia de muestreo: 500Hz
+- Resolución del ADC: 10bits
+- Ganancia: Variable, de 1 a 100000*
+- Banda pasante: 1 - 40Hz por medio de 2 filtros butterworth de 2 y 3 orden.
+- Bluetooth baudrate: 57600bps
+- Alimentación: Batería Lipo (3.7V)
+
+* Amplificador por arreglar
+
+ToDo:
+- Arreglar Amplificador
+- Guardar datos en archivo
+- Enviar a base de datos
+- Visualizador para la base de datos
+- Mejorar trigger
